@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  /* background: black; */
+
+}
+
+body {
+    background: linear-gradient(black , blue);
+}
+.Container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    /* background-color: rgb(231, 9, 57); */
+    /* background: rgb(142, 190, 216);  */
+
+
+}
+
+.Container .header{
+    margin-top: 16px;
+    width: 80%;
+    color: #fff;
+    
+    display: flex; 
+    /* background-image: -o-linear-gradient(f343, rgb (142, 190,)  100%);
+    color: blue; */
+
+    justify-content: space-between;
+    justify-items: center; 
+    align-items: center;
+}
+
+.Container .header h1 span {
+    color: rgb(250, 15, 66);
+}
+.Container .header .nav a{
+    /* width: 30%;
+    background-color: brown; */
+    margin: 0 15px ;
+    text-decoration: none;
+    color:  rgb(250, 15, 66);
+}
+
+.banContainer{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+
+    /* background-image: url(./Image/s.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover; */
+    
+
+}
+
+.banContainer .img{
+   width: 30%;
+   
+
+  
+   
+}
+.banContainer .img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: blue; */
+    background-color: rgb(253, 129, 14);
+    /* margin-right: 300%; */
+   
+}
+.banContainer .text{
+    width: 65%;
+    color: #fff;
+}
+.banContainer .info{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+ .banContainer .info .text h1 {
+    text-align: center;
+    padding: 3px 0;
+ }
+
+ .banContainer .info .text .btnContainer .btn{
+    margin-top: 10px;
+ }
+
+
+
+
+
+
+/* ------------------------About---------------------- */
+
+
+.about{
+    padding: 80px ;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-content: center;
+   justify-items: center;
+   gap: 10px;
+    
+   
+}
+
+.about .title{
+    text-align: center;
+    color: rgb(250, 15, 66);
+    text-decoration-line: underline;
+    padding: 35px 0;
+}
+
+.about .row{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+
+    gap: 20px;
+}
+
+.about .row .col1{
+    width: 35%;
+    
+
+}
+
+.about .row .col1 img{
+    width: 100%;
+    height: 360px;
+    border-radius: 20px;
+    /* background-color: blue; */
+    background-color: rgb(253, 129, 14);
+    border: 1px solid #5ecb93;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(4, 55, 209, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+
+.about .row .col2{
+    width: 65%;
+    color: #fff;
+    
+}
+
+.about .row .col2 .aboutBtn {
+    margin-top: 16px;
+}
+
+
+ 
+
+/* -------------- button ---------------- */
+
+
+ .btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 6px 0;
+ }
+.btnContainer .btn{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(250, 15, 66) ;
+    color: white;
+    box-shadow: rgb(252, 81, 7);
+    transition: 0.8s;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+.btnContainer .btn:hover{
+  background:   rgb(227, 71, 105) ;
+  
+
+
+}
+
+
+
+
+/* ----------------- My Skills ------------------ */
+
+.skills{
+    padding: 80px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.skills h1 {
+    padding: 20px 0;
+    color: rgb(250, 15, 66);
+    text-decoration-line: underline
+}
+ 
+
+.skills .cards{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    /* gap: 20px; */
+}
+
+.skills .cards .card{
+    background-color: black;
+    width: 30%;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 13px   rgb(250, 15, 66,0.4);
+
+}
+.projects {
+    padding: 80px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.projects h1 {
+    padding: 20px 0;
+    color: rgb(250, 15, 66);
+    text-decoration-line: underline;
+}
+.projects .cards2 .card .image{
+    border: 1px solid #5ecb93;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 247, 42, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+.projects .cards2 .card .image:hover{
+    transform: translateY(-5px);
+   
+}
+.projects .cards2{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    /* gap: 20px; */
+}
+
+.projects .cards2 .card{
+    background-color: black;
+    width: 30%;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 13px   rgb(250, 15, 66,0.4);
+}
+
+/* ----------------- Contacts ------------------ */
+
+
+.formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.formContainer .row{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formContainer .row .text{
+    width: 50%;
+}
+
+.formContainer .row .text h1{
+    text-align: center;
+    color:rgb(250, 15, 66) ;
+    text-decoration-line: underline
+}
+.formContainer .row .text h3{
+   padding: 10px 0;
+   color: #fff;
+}
+.formContainer .row .text p{
+  line-height: 20px;
+  color: #fff;
+}
+
+.formContainer .row .text .icons{
+    margin: 15px 0;
+    color:rgb(250, 15, 66) ;
+}
+
+.formContainer .row .text .icons i{
+    margin-right: 10px;
+}
+
+.formContainer .row .text .social{
+    margin-top: 30px;
+}
+
+.formContainer .row .text .social img{
+    background: rgb(1, 186, 253);
+    border-radius: 5px;
+    width: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.formContainer .row .text .social img :hover{
+    background-color: rgb(251, 61, 99);
+    transition: 10px ;
+}
+
+
+
+
+.formContainer .row .form{
+    width:45% ;
+    padding: 10px;
+
+}
+
+
+
+.formContainer .row .form input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formContainer .row .form #comment{
+    width: 100%;
+    
+}
